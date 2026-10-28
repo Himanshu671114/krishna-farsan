@@ -1,0 +1,6 @@
+{
+  "name": "कृष्णा गृहउद्योग फरसाण - दिवाळी फराळ विशेष",
+  "description": "घरगुती चव आणि पारंपरिक महाराष्ट्रीयन दिवाळी फराळ - चकली, लाडू, करंजी, शेव, चिवडा आणि खास कॉम्बो. मालाड परिसरात मोफत घरपोच सेवा.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

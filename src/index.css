@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-maroon-dark: #580c0f;
+    --color-maroon: #7a1014;
+    --color-maroon-light: #94171d;
+    --color-gold: #c99327;
+    --color-gold-light: #dfaf47;
+    --color-cream: #faf5ea;
+    --color-cream-card: #fffdf9;
+    --color-beige: #f3e9d2;
+  }
+
+  body {
+    background-color: #faf5ea;
+    color: #2b140e;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-festive {
+    font-family: 'Rozha One', 'Cinzel', serif;
+  }
+
+  .font-marathi-display {
+    font-family: 'Rozha One', 'Yatra One', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Traditional Rangoli / Festive Pattern helper */
+.festive-pattern {
+  background-color: #faf5ea;
+  background-image: radial-gradient(#d4af37 0.75px, transparent 0.75px), radial-gradient(#7a1014 0.75px, #faf5ea 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+.festive-border {
+  border: 1px solid rgba(197, 155, 39, 0.4);
+}
+
+.festive-gold-border {
+  border: 1.5px solid #d4af37;
+  box-shadow: 0 4px 20px -2px rgba(122, 16, 20, 0.08);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5eedb;
+}
+::-webkit-scrollbar-thumb {
+  background: #c59b27;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a1014;
+}
