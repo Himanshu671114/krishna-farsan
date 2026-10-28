@@ -11,9 +11,9 @@ export default defineConfig(({ command }) => {
     }
     if (process.env.GITHUB_REPOSITORY) {
       const repoName = process.env.GITHUB_REPOSITORY.split('/')[1];
-      return repoName ? `/${repoName}/` : './';
+      return repoName ? `/${repoName}/` : '/krishna-farsan/';
     }
-    return './';
+    return '/krishna-farsan/';
   };
 
   return {
