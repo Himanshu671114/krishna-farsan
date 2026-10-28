@@ -1,19 +1,31 @@
 import { FaralProduct } from '../types';
 
-export const POSTER_MAIN_IMAGE = '/assets/aistudio/________________________da10366c.png';
-export const POSTER_HAMPER_IMAGE = '/assets/aistudio/gemini-2.5-flash-image_Make_ONLY_these_two_changes_to_the_existing_poster_1._Replace_the_mobile_number_-0_8bcd5019.jpg';
+import photoChakli from '../assets/images/photo_chakli_realistic_1793212530257.jpg';
+import photoShankarpaale from '../assets/images/photo_shankarpaale_realistic_1793212531535.jpg';
+import photoPoheChiwda from '../assets/images/photo_pohe_chiwda_realistic_1793212531995.jpg';
+import photoTikhatShev from '../assets/images/photo_tikhat_shev_realistic_1793212532667.jpg';
+import photoBesanLaddu from '../assets/images/photo_besan_laddu_realistic_1793212533243.jpg';
+import photoRavaLaddu from '../assets/images/photo_rava_laddu_realistic_1793212533677.jpg';
+import photoKaranji from '../assets/images/photo_karanji_realistic_1793212534027.jpg';
+import photoAnarse from '../assets/images/photo_anarse_realistic_1793212534816.jpg';
+import photoRavaBesanLaddu from '../assets/images/photo_rava_besan_laddu_realistic_1793212535032.jpg';
+import photoHamperRealistic from '../assets/images/photo_faral_hamper_realistic_1793212535725.jpg';
+import posterMainImage from '../assets/images/________________________da10366c.png';
+import posterHamperImage from '../assets/images/gemini-2.5-flash-image_Make_ONLY_these_two_changes_to_the_existing_poster_1._Replace_the_mobile_number_-0_8bcd5019.jpg';
 
-// Realistic food photography assets
-export const PHOTO_CHAKLI = '/src/assets/images/photo_chakli_realistic_1793212530257.jpg';
-export const PHOTO_SHANKARPAALE = '/src/assets/images/photo_shankarpaale_realistic_1793212531535.jpg';
-export const PHOTO_POHE_CHIWDA = '/src/assets/images/photo_pohe_chiwda_realistic_1793212531995.jpg';
-export const PHOTO_TIKHAT_SHEV = '/src/assets/images/photo_tikhat_shev_realistic_1793212532667.jpg';
-export const PHOTO_BESAN_LADDU = '/src/assets/images/photo_besan_laddu_realistic_1793212533243.jpg';
-export const PHOTO_RAVA_LADDU = '/src/assets/images/photo_rava_laddu_realistic_1793212533677.jpg';
-export const PHOTO_KARANJI = '/src/assets/images/photo_karanji_realistic_1793212534027.jpg';
-export const PHOTO_ANARSE = '/src/assets/images/photo_anarse_realistic_1793212534816.jpg';
-export const PHOTO_RAVA_BESAN_LADDU = '/src/assets/images/photo_rava_besan_laddu_realistic_1793212535032.jpg';
-export const PHOTO_HAMPER_REALISTIC = '/src/assets/images/photo_faral_hamper_realistic_1793212535725.jpg';
+export const POSTER_MAIN_IMAGE = posterMainImage;
+export const POSTER_HAMPER_IMAGE = posterHamperImage;
+
+export const PHOTO_CHAKLI = photoChakli;
+export const PHOTO_SHANKARPAALE = photoShankarpaale;
+export const PHOTO_POHE_CHIWDA = photoPoheChiwda;
+export const PHOTO_TIKHAT_SHEV = photoTikhatShev;
+export const PHOTO_BESAN_LADDU = photoBesanLaddu;
+export const PHOTO_RAVA_LADDU = photoRavaLaddu;
+export const PHOTO_KARANJI = photoKaranji;
+export const PHOTO_ANARSE = photoAnarse;
+export const PHOTO_RAVA_BESAN_LADDU = photoRavaBesanLaddu;
+export const PHOTO_HAMPER_REALISTIC = photoHamperRealistic;
 
 // EXACT REQUIREMENT: Only 500 g and 1 kg weight options
 const standardWeights = [
